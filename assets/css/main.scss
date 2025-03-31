@@ -1,0 +1,44 @@
+@use 'variables' as *;    // pas besoin de mettre l'underscore ni l'extension .scss
+@use 'mixins' as *;
+
+header {
+    color: $navcolor;
+}
+
+.primary-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+.navbar{ 
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 2rem;
+        text-transform : uppercase;
+        color: #0a0a0a;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                @include nav ($navcolor, $size);
+            }
+        }
+    }
+}
+
+.user-menu{
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.row {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.hero{
+    position: relative;
+}
+
+.img-container img{
+    width: 100%;
+    margin-top: 10rem;
+    height: 526px;
+}
+
+.title-news{
+    background-color: #0000005C;
+    Width: 716px;
+    Height: 402px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+.title-product{
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    gap: 1rem;
+}
+
+.image{
+    width: 60%;
+}
+
+.image-bain{
+    width: 575px;
+    height: 638px;
+}
+
+.image-room{
+    width: 339px;
+    height: 638px;
+}
+
+.card .content{
+    position: absolute;
+    background-color: #111010;
+    color: #ffffff;
+    top: 34rem;
+    padding: 2rem;
+    text-align: center;
+    width:85%;
+    left: 13px;
+}
+
+.card .marble{
+    width: 75%;
+    left: 10px;
+}
+
+.card{
+    position: relative;
+}
+
+.column-card img{
+    width: 454px;
+    height: 294px;
+    margin-bottom: 45px;
+}
+
+.column-card .content{
+    position: absolute;
+    top: 202px;
+    width: 80%;
+    left: 15px;
+}
+
+.column-card .card{
+    position: relative;
+    width: 100%;
+}
+
+.container-baner {
+    margin-left: 15rem;
+    margin-right: 10rem;
+    height: 526px;
+    background-image: url(../images/image-destop/section-3/image-sejour.png);
+    background-position: 0cap;
+    width: 75%;
+    margin-right: 10rem;
+    position: relative;
+ 
+}
+
+.encart{
+    background-color: #f7f7f7;
+    width: 708px;
+    height: 402px;
+    position: absolute;
+    right: 0;
+    margin-right: 43rem;
+    margin-top: 3rem;
+    
+}
+
+.cta .secondaty-btn{
+    margin-top: 10rem;
+}
+
+
